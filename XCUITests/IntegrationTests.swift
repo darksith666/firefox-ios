@@ -31,7 +31,6 @@ class IntegrationTests: BaseTestCase {
             alert.buttons["Allow"].tap()
             return true
         }
-        sleep(5)
         app.swipeDown()
     }
 
